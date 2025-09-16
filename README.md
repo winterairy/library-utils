@@ -39,3 +39,8 @@ Next App router를 사용하여 Next.js에서 권장하는 폴더 구조로 틀�
 - 카운터(Counter)
 - localStrage, sessionStorage를 활용한 결과 저장
 - App router로 페이지 이동
+
+#### 카운터
+
+`useCounter` 훅으로 분리하여 재사용성을 높이고 `props`로 넘길 인수 타입 또한 미리 지정해 발생할 가능성이 있는 오류를 줄였습니다.
+0 이하로는 숫자를 셀 수 없도록 하고, `useEffect` 훅으로 데이터를 저장해 넘기도록 만들었습니다. 이에 따라 카운팅이 될 때마다 `useEffect`로 리렌더링되고 변경된 숫자가 화면에 반영됩니다.
