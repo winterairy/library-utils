@@ -18,9 +18,9 @@ export default function Result() {
 
   useEffect(() => {
     const placeNames = [
+      "📚 종합자료실 📚",
       "🧸 청소년자료실 🧸",
       "📰 연속간행물 📰",
-      "📚 종합자료실 📚",
       "🖥️ PC 🖥️",
     ];
 

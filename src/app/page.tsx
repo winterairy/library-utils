@@ -20,9 +20,9 @@ export default function Home() {
   };
 
   const placeNames: string[] = [
+    "📚 종합자료실 📚",
     "🧸 청소년자료실 🧸",
     "📰 연속간행물 📰",
-    "📚 종합자료실 📚",
     "🖥️ PC 🖥️",
   ];
 
